@@ -3,3 +3,8 @@ header{
   align-items: center;
   color: #fff;
 }
+
+li{
+	display: inline-flex;
+	padding-right: 10px;
+}
