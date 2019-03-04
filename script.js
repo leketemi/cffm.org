@@ -7,13 +7,13 @@ var answer = document.querySelector('#answer');
 var buttons = Array.from(document.querySelectorAll('button'));
 buttons.forEach(button => {
 	button.addEventListener('click', (e) => {
-		if (button.id == 'save') {
+		if (button.id === 'save') {
 		prompt = prompt('Are you saved?');
 		answer.textContent = prompt;
-		}else if (button.id == 'holy') {
+		}else if (button.id === 'holy') {
 			prompt = prompt('Are you holy?');
 			answer.textContent = prompt;
-		}else if (button.id == 'holy-spirit') {
+		}else if (button.id === 'holy-spirit') {
 			prompt = prompt('Are you filled with holy spirit?');
 			answer.textContent = prompt;
 		}
